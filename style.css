@@ -1,0 +1,76 @@
+body {
+  margin-left: 5%;
+  font-family: sans-serif;
+  background-color: antiquewhite;
+}
+.heading {
+  color: #0a7a7a;
+  font-size: 50px;
+  line-height: 35px;
+}
+
+h2 {
+  color: #0a7a7a;
+}
+
+h3 {
+  color: rgb(10, 119, 134);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image {
+  padding-left: 65px;
+  padding-bottom: 10px;
+}
+
+.input-Field {
+  width: 400px;
+  color: black;
+  border-radius: 0.3em;
+  border-color: rgb(101, 25, 201);
+  height: 35px;
+  font-size: 20px;
+}
+
+.input-btn {
+  height: 36px;
+  font-size: 15px;
+  border-radius: 0.2em;
+  color: white;
+  width: 60px;
+  background-color: rgb(27, 75, 119);
+}
+
+.container-news {
+  padding-top: 5px;
+}
+
+.content {
+  /* font-family:;   */
+  border-width: 1px;
+
+  border-style: solid;
+  font-size: 25px;
+  width: 1000px;
+  color: white;
+  background-color: rgba(0, 116, 224, 0.678);
+  padding-left: 1em;
+}
+
+.details {
+  padding-bottom: 10px;
+  color: black;
+  font-size: 20px;
+}
+
+.list {
+  color: rgb(18, 10, 129);
+  font-size: 1.2em;
+  border-style: initial;
+  line-height: 52px;
+}
+
+.list:hover {
+  cursor: pointer;
+  font-size: 25px;
+}
