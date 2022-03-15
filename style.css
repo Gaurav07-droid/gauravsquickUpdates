@@ -1,8 +1,17 @@
 body {
   margin-left: 5%;
   font-family: sans-serif;
-/*   background-color: antiquewhite; */
-  background-color:linear-gradient(to right, #d3cce3, #e9e4f0)
+  background: #be93c5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #7bc6cc,
+    #be93c5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #7bc6cc,
+    #be93c5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .heading {
   color: #0a7a7a;
@@ -20,7 +29,7 @@ h3 {
 }
 
 .image {
-  padding-left: 65px;
+  padding-left: 85px;
   padding-bottom: 10px;
 }
 
@@ -73,5 +82,5 @@ h3 {
 
 .list:hover {
   cursor: pointer;
-  font-size: 25px;
+  font-size: 20px;
 }
