@@ -11,7 +11,7 @@ export const timeout = function (s) {
 
 export const checkInput = function () {
   if (!input.value) {
-    welMssg.textContent = "Invalid search⛔! Try again";
+    welMssg.textContent = "No search found!please search any categeory⛔";
   } else {
     welMssg.textContent = `Getting results Please wait...`;
     LoadRender(`${input.value}`);
